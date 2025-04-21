@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitAddinCreateGrids</Text>
+    <Description>Some description for RevitAddinCreateGrids</Description>
+    <Assembly>RevitAddinCreateGrids.dll</Assembly>
+    <FullClassName>RevitAddinCreateGrids.Command</FullClassName>
+    <ClientId>1001aa11-85f6-473f-85f1-7799b6d43443</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>kawasaki-pe inc, https://kawasaki-pe.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitAddinCreateGrids</Name>
+    <Assembly>RevitAddinCreateGrids.dll</Assembly>
+    <FullClassName>RevitAddinCreateGrids.App</FullClassName>
+    <ClientId>5d94e20f-8521-456f-ab2d-d63ec21eb6cd</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>kawasaki-pe inc, https://kawasaki-pe.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
